@@ -1,40 +1,25 @@
 'use strict';
 
-1) Что выведет let x = 5; alert (x++)
-Ответ 5
+1. document.getElementById(""); - получить элемент по id
+const box = document.getElementById('box');
+console.log(box);
 
-2) Чему равно такое выражение: [ ] + false - null + true ?
-    [] будет приведен к строке
-Ответ NaN
+2. document.getElementsByTagName(""); - получить элементы по тегу
+const btns = document.getElementsByTagName('button');
+console.log(btns)
 
-3) Что выведет этот код: let y = 1; let x = y = 2; alert(x); ?
-Ответ 2
+let btns = document.getElementsByTagName("")[1] - вернет 2-й элемент
+или
+console.log(btns[1])
+3.  const circles = document.getElementsByClassName('circle'); -  получить элемент по Классу
+console.log(circles)
 
-4) Чему равна сумма [ ] + 1 + 2?
-Ответ '12'
+4. const hearts = document.querySelectorAll('.heart'); - получить элемент по селектору css
 
-5) Что выведет этот код: alert('1'[0] )?
- Ответ 1
+hearts.forEach(item => {
+    console.log(item)
+})
+Поддерживает метод forEach()
 
-6) Чему равно 2 && 1 && null && 0 && undefined ?
-    Оператор && всегда останавливается на false
-    Ответ null
-
-7) Есть ли разница между выражениями? !!( a && b ) и (a && b)?
-    !! превращают выражение в boolean
-Ответ false
-
-8) Что выведет этот код: alert( null || 2  && 3 || 4 ); ?
-Оператор || всегда останавливается на первом true
-    Ответ 3
-
-9) a = [1, 2, 3]; b = [1, 2, 3]; Правда ли что a == b ?
-Ответ Не равны
-10) Что выведет этот код: alert( +'Infinity' ); ?
-Ответ Infinity
-11) Верно ли сравнение: 'Ёжик' > 'яблоко'?
-Ответ false (unicode)
-12) Чему равно 0 || '' || 2 || undefined || true || falsе ?
- Ответ 2
-
-
+5. const oneHeart = document.querySelector('.heart'); - получить один элемент со страницы(первый искомый)
+console.log(oneHeart)
