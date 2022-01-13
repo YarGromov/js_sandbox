@@ -1,28 +1,32 @@
-"use strict"
+'use strict';
 
-let str = "some";
-let strObj = new String(str);
+        To String
+console.log(String(123))
 
-console.log( typeof str)
-console.log( typeof strObj)
+const num = 5;
+console.log('https://vk.com/catalog/' + num)
 
-console.dir([1,2, 3])
+const fontSize = 26 + 'px';
+console.log(fontSize)
 
-const soldier = {
-    health: 400,
-    armor: 100,
-    sayHi: function (){
-        console.log('Hello!')
-    }
-};
-const jonh = Object.create(soldier);
+            To Number
+console.log(Number('5'))
 
-const jonh = {
-    health: 100
-};
+console.log((parseInt('15px')))
 
-jonh.__proto__ = soldier;
-Object.setPrototypeOf(jonh, soldier)
-console.log(jonh.armor);
-jonh.sayHi()
+console.log(+'5')
 
+      To Boolean
+
+false - 0, '', null, undefined, NaN;
+ let switcher = null;
+ switcher = 1;
+switcher = undefined;
+switcher = '';
+switcher = NaN;
+ if (switcher) {
+     console.log('Working...')
+ }
+
+console.log(Boolean('5'))
+console.log(!!'')
