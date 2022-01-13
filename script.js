@@ -1,32 +1,40 @@
 'use strict';
 
-        To String
-console.log(String(123))
+1) Что выведет let x = 5; alert (x++)
+Ответ 5
 
-const num = 5;
-console.log('https://vk.com/catalog/' + num)
+2) Чему равно такое выражение: [ ] + false - null + true ?
+    [] будет приведен к строке
+Ответ NaN
 
-const fontSize = 26 + 'px';
-console.log(fontSize)
+3) Что выведет этот код: let y = 1; let x = y = 2; alert(x); ?
+Ответ 2
 
-            To Number
-console.log(Number('5'))
+4) Чему равна сумма [ ] + 1 + 2?
+Ответ '12'
 
-console.log((parseInt('15px')))
+5) Что выведет этот код: alert('1'[0] )?
+ Ответ 1
 
-console.log(+'5')
+6) Чему равно 2 && 1 && null && 0 && undefined ?
+    Оператор && всегда останавливается на false
+    Ответ null
 
-      To Boolean
+7) Есть ли разница между выражениями? !!( a && b ) и (a && b)?
+    !! превращают выражение в boolean
+Ответ false
 
-false - 0, '', null, undefined, NaN;
- let switcher = null;
- switcher = 1;
-switcher = undefined;
-switcher = '';
-switcher = NaN;
- if (switcher) {
-     console.log('Working...')
- }
+8) Что выведет этот код: alert( null || 2  && 3 || 4 ); ?
+Оператор || всегда останавливается на первом true
+    Ответ 3
 
-console.log(Boolean('5'))
-console.log(!!'')
+9) a = [1, 2, 3]; b = [1, 2, 3]; Правда ли что a == b ?
+Ответ Не равны
+10) Что выведет этот код: alert( +'Infinity' ); ?
+Ответ Infinity
+11) Верно ли сравнение: 'Ёжик' > 'яблоко'?
+Ответ false (unicode)
+12) Чему равно 0 || '' || 2 || undefined || true || falsе ?
+ Ответ 2
+
+
