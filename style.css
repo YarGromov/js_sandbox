@@ -1,0 +1,19 @@
+button {
+    width: 200px;
+    height: 60px;
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    border: none;
+}
+.link {
+    margin: 30px;
+}
+.link a {
+    font-size: 20px;
+    color: blueviolet;
+    text-decoration: none;
+}
+.overlay {
+    margin: 50px;
+}

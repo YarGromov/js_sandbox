@@ -1,77 +1,85 @@
 'use strict';
 
-// Действия с элементами на странице
-const box = document.getElementById('box');
-const btns = document.getElementsByTagName('button');
-const circles = document.getElementsByClassName('circle');
-const hearts = document.querySelectorAll('.heart');
-const oneHeart = document.querySelector('.heart');
+          //СОБЫТИЯ И ИХ ОБРАБОТЧИКИ
+
+//В HTML
+// <button onClick="alert('Click')" id="btn">Нажми на меня</button>
+
+// В JavaScript
+const btns = document.querySelectorAll('button');
+const overlay = document.querySelector('.overlay')
+//
+// btn.onclick = function () {
+//     alert('LOOOOL');
+// }
+// Данный способ нельзя перезаписать
+
+           //addEventListener
+// btn.addEventListener('click', () => {
+//     alert('Произошло нажатие');
+// });
+//
+// btn.addEventListener('click', () => {
+//     alert('Произошло зачатие');
+// });
+//Можно дублировать. Выполнит все варианты.
+
+// btn.addEventListener('mouseenter', (e) => {
+//     console.log(e);
+// });
+// Можно задать любое событие
+//Аргументом коллбек функции можно задать event(событие), покажет произошедшее событие
+
+// btn.addEventListener('click', (e) => {
+//     e.target.remove();
+// });
 
 
-1) box.style.backgroundColor = 'blue';
-Чтобы изменить стили объектов, надо использовать св-во style
+// let i = 0;
+// const deleteElement = (e) => {
+//     console.log(e.target);
+//     i++;
+//     if (i == 1) {
+//         btn.removeEventListener('click', deleteElement);
+//     }
+// };
+// btn.addEventListener('click', deleteElement);
 
+// let i = 0;
+const deleteElement = (e) => {
+    console.log(e.target);
+    console.log(e.type);
+    // i++;
+    // if (i == 1) {
+    //     btn.removeEventListener('click', deleteElement);
+    // }
+};
+// btn.addEventListener('click', deleteElement);
+// overlay.addEventListener('click', deleteElement);
 
-2) circles[0].style.backgroundColor = 'red';
-Чтобы стили конкретного элемента псевдамассива, надо обратиться к элементу по его индексу
-
-3)box.style.cssText = 'background-color: blue; width: 500px';
-Чтобы задать СРАЗУ НЕСКОЛЬКО стилей объекту, надо использовать св-во cssText
-
-4) for (let i = 0; i < hearts.length; i++) {
-    hearts[i].style.backgroundColor = 'blue';
-}
-Перебрать элементы массива ЦИКЛОМ и каждому поменять стили
-
-5) hearts.forEach(item => {
-    item.style.backgroundColor = 'green';
+btns.forEach(btn => {
+    btn.addEventListener('click', deleteElement)
 })
-Перебрать элементы массива МЕТОДОМ forEach() и каждому поменять стили
 
-6) const div = document.createElement('div');
-Создать элемент c тегом, указанным в аргументе
-Тег создается только внутри файла JS
+const link = document.querySelector('a');
 
-7) const text = document.createTextNode('Тут был я');
-Создать текстовый узел без оболочки тега
+link.addEventListener('click', function(event) {
+    event.preventDefault();
+    //Помещается в самом начале обработчика событий. ОТМЕНЯЕТ СОБЫТИЕ
+    console.log(event.target)
+    //Затем задаем свое событие
+});
 
-8) div.classList.add('black');
-Добавить класс black элементу div
 
-9) document.body.append(div);
-Добавить элемент div внутрь элемента body
 
-10) document.querySelector('.wrapper').append(div);
-Получить элемент с классом .wrapper и добавить туда div В КОНЕЦ
 
-11) wrapper.prepend(div);
-Добавить элемент div в НАЧАЛО элемента wrapper
 
-12) hearts[0].before(div)
-Добавить элемент div ПЕРЕД элементом hearts[0]
 
-13) hearts[0].after(div)
-Добавить элемент div ПОСЛЕ элемента hearts[0]
 
-14) circles[0].remove();
-Удалить элемент circles[0] со страницы
 
-15) hearts[0].replaceWith(circles[0]);
-Заменить элемент  hearts[0] на элемент circles[0]
 
-   // РЕДАКАТИРОВАНИЕ ЭЛЕМЕНТОВ
 
-1) div.innerHTML = 'Hello World!';
-Вставить текст 'Hello World!' в элемент div
- МОЖНО ВСТАВЛЯТЬ В ТЕГАХ
-div.innerHTML = '<h1>Hello World!</h1>';
 
-2) div.textContent = 'Hello';
-Вставить только текст 'Hello' в элемент div, БЕЗ ТЕГОВ
 
-3) div.insertAdjacentHTML('afterend', '<h2>helllo</h2>');
-beforebegin - вставить html перед элементом div
-afterbegin - вставить html в начало элемента div
-beforeend - вставить html в конец элемента div
-afterend - вставить html после элемента div
+
 
