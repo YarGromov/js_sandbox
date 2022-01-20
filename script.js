@@ -1,76 +1,52 @@
 'use strict';
 
-          //СОБЫТИЯ И ИХ ОБРАБОТЧИКИ
+Навигация по DOM-элементам, data-атрибуты, преимущества for/of
 
-//В HTML
-// <button onClick="alert('Click')" id="btn">Нажми на меня</button>
+console.dir(document.body.childNodes)
+Получить дочерние узлы body
 
-// В JavaScript
-const btns = document.querySelectorAll('button');
-const overlay = document.querySelector('.overlay')
-//
-// btn.onclick = function () {
-//     alert('LOOOOL');
-// }
-// Данный способ нельзя перезаписать
+console.dir(document.body.firstChild)
+Получить первый дочерний узел
+console.dir(document.body.lastChild)
+Получить последний дочерний узел
 
-           //addEventListener
-// btn.addEventListener('click', () => {
-//     alert('Произошло нажатие');
-// });
-//
-// btn.addEventListener('click', () => {
-//     alert('Произошло зачатие');
-// });
-//Можно дублировать. Выполнит все варианты.
+console.log(document.querySelector('#current').parentNode);
+Получить родительский узел
 
-// btn.addEventListener('mouseenter', (e) => {
-//     console.log(e);
-// });
-// Можно задать любое событие
-//Аргументом коллбек функции можно задать event(событие), покажет произошедшее событие
+ console.log(document.querySelector('#current').parentNode.parentNode);
+Получить родителя родителя
 
-// btn.addEventListener('click', (e) => {
-//     e.target.remove();
-// });
+console.log(document.querySelector('[data-current="3"]'));
+Получить элемент с  data-атрибутом
 
+console.log(document.querySelector('[data-current="3"]').nextSibling);
+Получить следующего соседа
 
-// let i = 0;
-// const deleteElement = (e) => {
-//     console.log(e.target);
-//     i++;
-//     if (i == 1) {
-//         btn.removeEventListener('click', deleteElement);
-//     }
-// };
-// btn.addEventListener('click', deleteElement);
+console.log(document.querySelector('[data-current="3"]').previousSibling);
+Получить предыдущего соседа
 
-// let i = 0;
-const deleteElement = (e) => {
-    console.log(e.target);
-    console.log(e.type);
-    // i++;
-    // if (i == 1) {
-    //     btn.removeEventListener('click', deleteElement);
-    // }
-};
-// btn.addEventListener('click', deleteElement);
-// overlay.addEventListener('click', deleteElement);
+console.log(document.querySelector('[data-current="3"]').nextElementSibling);
+Получить следующий элемент
 
-btns.forEach(btn => {
-    btn.addEventListener('click', deleteElement)
-})
+console.log(document.querySelector('[data-current="3"]').previousElementSibling);
+Получить предыдущий элемент
 
-const link = document.querySelector('a');
+console.log(document.querySelector('#current').parentElement);
+Получить родительский элемент
 
-link.addEventListener('click', function(event) {
-    event.preventDefault();
-    //Помещается в самом начале обработчика событий. ОТМЕНЯЕТ СОБЫТИЕ
-    console.log(event.target)
-    //Затем задаем свое событие
-});
+console.log(document.body.firstElementChild)
+Получить первый дочерний ЭЛЕМЕНТ
 
+console.log(document.body.lastElementChild)
+Получить последний дочерний ЭЛЕМЕНТ
 
+ for (let node of document.body.childNodes) {
+     if (node.nodeName == '#text') {
+         continue;
+     }
+     console.log(node)
+ }
+ Перебрать дочерние узлы body и вывести только Элементы
 
 
 
