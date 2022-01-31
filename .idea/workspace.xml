@@ -3,7 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="92c10a81-0c24-4d0f-aeef-b85004e37105" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../project_mDB.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index (7).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food_dist/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food_dist/icons/Group 5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food_dist/icons/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food_dist/icons/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food_dist/icons/left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food_dist/icons/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food_dist/icons/right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food_dist/icons/switch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food_dist/icons/veg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food_dist/img/slider/food-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food_dist/img/slider/olive-oil.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food_dist/img/slider/paprika.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food_dist/img/slider/pepper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food_dist/img/tabs/elite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food_dist/img/tabs/hamburger.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food_dist/img/tabs/post.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food_dist/img/tabs/vegy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food_dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food_dist/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" />
@@ -12,11 +30,9 @@
       <change beforePath="$PROJECT_DIR$/../js/readme.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../js/script.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/some.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index (7).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +41,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="23HfHgR4DwLTQxCSnHVYTbp3Bxe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -76,7 +100,10 @@
       <workItem from="1642690429933" duration="4081000" />
       <workItem from="1643555218960" duration="246000" />
       <workItem from="1643555469036" duration="5000" />
-      <workItem from="1643555559501" duration="3614000" />
+      <workItem from="1643555559501" duration="3774000" />
+      <workItem from="1643630060367" duration="18000" />
+      <workItem from="1643630088862" duration="28000" />
+      <workItem from="1643630296758" duration="2544000" />
     </task>
     <servers />
   </component>
