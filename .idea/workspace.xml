@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92c10a81-0c24-4d0f-aeef-b85004e37105" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../project_mDB.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Food_dist/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Food_dist/icons/Group 5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Food_dist/icons/facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Food_dist/icons/instagram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Food_dist/icons/left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Food_dist/icons/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Food_dist/icons/right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Food_dist/icons/switch.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Food_dist/icons/veg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Food_dist/img/slider/food-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Food_dist/img/slider/olive-oil.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Food_dist/img/slider/paprika.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Food_dist/img/slider/pepper.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Food_dist/img/tabs/elite.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Food_dist/img/tabs/hamburger.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Food_dist/img/tabs/post.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Food_dist/img/tabs/vegy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Food_dist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Food_dist/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" />
@@ -30,9 +11,25 @@
       <change beforePath="$PROJECT_DIR$/../js/readme.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../js/script.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index (7).html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food_dist/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food_dist/icons/Group 5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food_dist/icons/facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food_dist/icons/instagram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food_dist/icons/left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food_dist/icons/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food_dist/icons/right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food_dist/icons/switch.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food_dist/icons/veg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food_dist/img/slider/food-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food_dist/img/slider/olive-oil.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food_dist/img/slider/paprika.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food_dist/img/slider/pepper.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food_dist/img/tabs/elite.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food_dist/img/tabs/hamburger.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food_dist/img/tabs/post.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food_dist/img/tabs/vegy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food_dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food_dist/js/script.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +57,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -103,7 +102,11 @@
       <workItem from="1643555559501" duration="3774000" />
       <workItem from="1643630060367" duration="18000" />
       <workItem from="1643630088862" duration="28000" />
-      <workItem from="1643630296758" duration="2544000" />
+      <workItem from="1643630296758" duration="2830000" />
+      <workItem from="1643633684527" duration="132000" />
+      <workItem from="1644489299741" duration="5000" />
+      <workItem from="1644489396637" duration="1126000" />
+      <workItem from="1644569920792" duration="973000" />
     </task>
     <servers />
   </component>
