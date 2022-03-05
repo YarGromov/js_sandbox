@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92c10a81-0c24-4d0f-aeef-b85004e37105" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" />
@@ -10,26 +9,8 @@
       <change beforePath="$PROJECT_DIR$/../js/logs/logs.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../js/readme.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food_dist/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food_dist/icons/Group 5.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food_dist/icons/facebook.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food_dist/icons/instagram.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food_dist/icons/left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food_dist/icons/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food_dist/icons/right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food_dist/icons/switch.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food_dist/icons/veg.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food_dist/img/slider/food-12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food_dist/img/slider/olive-oil.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food_dist/img/slider/paprika.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food_dist/img/slider/pepper.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food_dist/img/tabs/elite.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food_dist/img/tabs/hamburger.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food_dist/img/tabs/post.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food_dist/img/tabs/vegy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food_dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food_dist/js/script.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +87,7 @@
       <workItem from="1643633684527" duration="132000" />
       <workItem from="1644489299741" duration="5000" />
       <workItem from="1644489396637" duration="1126000" />
-      <workItem from="1644569920792" duration="973000" />
+      <workItem from="1644569920792" duration="2674000" />
     </task>
     <servers />
   </component>
