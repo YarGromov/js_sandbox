@@ -1,40 +1,27 @@
-// УСЛОВИЯ if - else
+// ЦИКЛЫ
 
-const num = 50; 
+// WHILE
+let num = 50;
 
-if (num < 49) {
-  console.log('Error!')
-} else if(num > 100) {
-  console.log('Слишком много')
-} else {
-  console.log('Ok!')
+while (num <= 55) {
+  console.log(num);
+  num++;
 }
 
-// ТЕРНАРНЫЙ ОПЕРАТОР
+// DO - WHILE
 
-const num2 = 51; 
+do {
+  console.log(num);
+  num++;
+} while (num <= 55);
 
-(num2 === 50) ? console.log('Ok!') : console.log('Error!')
+// FOR
 
-// SWITCH  проверка на строгое соответствие 
-
-const num3 = 153;
-
-switch(num3) {
-  case 51:
-    console.log('Мало');
+for (let i = 0; i <= 10; i++) {
+  if (i === 6) {
+    continue;
+  } else if (i === 9) {
     break;
-  case 52:
-    console.log('Мало');
-    break;
-  case 53:
-    console.log('В точку');
-    break;
-  case 54:
-    console.log('Много');
-    break;
-  default:
-    console.log('Не в этот раз!');
-    break;
+  }
+  console.log(i);
 }
-
