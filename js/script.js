@@ -1,33 +1,35 @@
-// ЦИКЛ В ЦИКЛЕ И МЕТКИ
+let num = 20;
 
-for (let i = 0; i <= 3; i++) {
-  console.log(i);
-  for (let j = 0; j <= 3; j++) {
-    console.log(j);
-  }
+function showFirstMessage(text) {
+  console.log(text);
+  let num = 10;
+  console.log(num);
+}
+showFirstMessage("Hello World!");
+console.log(num);
+
+function calc(a, b) {
+  return a + b;
+}
+console.log(calc(1, 5));
+console.log(calc(3, 5));
+console.log(calc(1, 51));
+
+function ret() {
+  let num = 51;
+
+  // Code
+
+  return num;
 }
 
-let result = "";
-const length = 7;
+const newNum = ret();
+console.log(newNum);
 
-for (let i = 1; i <= length; i++) {
-  for (let j = 0; j < i; j++) {
-    result += "*";
-  }
+const logger = function () {
+  console.log("Hello function expression!");
+};
+logger();
 
-  result += "\n";
-}
-console.log(result);
-
-// МЕТКИ
-
-first: for (let i = 0; i < 3; i++) {
-  console.log(`First level ${i}`);
-  for (let j = 0; j < 3; j++) {
-    console.log(`Second level ${j}`);
-    for (let k = 0; k < 5; k++) {
-      if (k === 2) break first;
-      console.log(`Third level ${k}`);
-    }
-  }
-}
+const calc2 = (a, b) => a + b;
+console.log(calc2(5, 50));
