@@ -1,35 +1,40 @@
-let num = 20;
+//Аргументы функций 
 
-function showFirstMessage(text) {
-  console.log(text);
-  let num = 10;
-  console.log(num);
+// const usdCurr = 28;
+// const eurCurr = 32;
+
+// function convert(amount, curr) {
+//   console.log(amount * curr);
+// } 
+// convert(1000, usdCurr)
+// convert(1000, eurCurr)
+
+// Про важность return 
+
+const discount = 0.9;
+const usdCurr = 28;
+
+function convert(amount, curr) {
+  return amount * curr;
+} 
+
+function promotion(result) {
+  console.log(result * discount)
 }
-showFirstMessage("Hello World!");
-console.log(num);
 
-function calc(a, b) {
-  return a + b;
+const res = convert(500, usdCurr);
+
+promotion(res);
+
+
+function test(){
+  for (let i = 0; i < 5; i++) {
+    console.log(i);
+    if ( i === 3) return;
+  }
 }
-console.log(calc(1, 5));
-console.log(calc(3, 5));
-console.log(calc(1, 51));
+test()
 
-function ret() {
-  let num = 51;
-
-  // Code
-
-  return num;
-}
-
-const newNum = ret();
-console.log(newNum);
-
-const logger = function () {
-  console.log("Hello function expression!");
-};
-logger();
-
-const calc2 = (a, b) => a + b;
-console.log(calc2(5, 50));
+// Под капотом любая функция возвращает undefined 
+function doNothing() {};
+console.log(doNothing() === undefined);
