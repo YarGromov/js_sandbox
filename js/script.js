@@ -1,40 +1,27 @@
-//Аргументы функций 
+//callback - функции
 
-// const usdCurr = 28;
-// const eurCurr = 32;
-
-// function convert(amount, curr) {
-//   console.log(amount * curr);
-// } 
-// convert(1000, usdCurr)
-// convert(1000, eurCurr)
-
-// Про важность return 
-
-const discount = 0.9;
-const usdCurr = 28;
-
-function convert(amount, curr) {
-  return amount * curr;
-} 
-
-function promotion(result) {
-  console.log(result * discount)
+function first() {
+  setTimeout(function(){
+    console.log(1);
+  }, 500);
 }
 
-const res = convert(500, usdCurr);
 
-promotion(res);
-
-
-function test(){
-  for (let i = 0; i < 5; i++) {
-    console.log(i);
-    if ( i === 3) return;
-  }
+function second(){
+  console.log(2);
 }
-test()
 
-// Под капотом любая функция возвращает undefined 
-function doNothing() {};
-console.log(doNothing() === undefined);
+first()
+second()
+
+
+function learnJS(lang, callback){
+  console.log(`Я учу: ${lang}`);
+  callback();
+}
+
+function done(){
+  console.log('Я прошел этот урок')
+}
+
+learnJS('JavaScript', done);
