@@ -1,47 +1,24 @@
-// Объекты, деструктуризация объектов (ES6)
+// Массивы и псевдомассивы
 
-const options = {
-  name: 'test',
-  width: 1024,
-  height: 1024,
-  colors: {
-    border: 'black',
-    bg: 'red'
-  },
-  makeTest: function(){
-    console.log('Test'); 
-  }
-};
+let arr = [1, 2, 3, 4, 5];
 
-console.log(options['colors']['border'])
-// 
-// delete options.name;
-
-// console.log(options)
-
-let counter = 0;
-
-for (let key in options){
-  if(typeof (options[key]) === 'object') {
-    for (let i in options[key]){
-      console.log(`Свойство ${i} имеет значение ${options[key][i]}`)
-    } 
-  } else {
-    console.log(`Свойство ${key} имеет значение ${options[key]}`)
-    counter++;
-  }
+for (let i of arr) {
+  console.log(i);
 }
-console.log(counter)
 
+arr.forEach((item, i, arr) => {
+  console.log(`${i}: ${item} внутри массива ${arr}`);
+});
 
-console.log(Object.keys(options));
-console.log(Object.keys(options).length);
+const str = prompt("", "");
+const products = str.split(", ");
+products.sort();
+console.log(products.join("; "));
 
-options.makeTest()
+let arr2 = [123, 122, 32, 4, 31, 234];
 
-console.log(options.makeTest())
+function compare(a, b) {
+  return a - b;
+}
 
-// Деструктуризация 
- 
-const {border, bg} = options.colors;
-console.log(border, bg);
+console.log(arr2.sort(compare));
